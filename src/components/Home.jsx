@@ -11,14 +11,15 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a software developer
+          <h2 className="text-4xl sm:text-7xl font-bold text-slate-50 font-signature">
+            Greetings Visitor!
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a responsible student with good judgment, time management and a
-            flexible schedule. Ability to complete tasks on time in both
-            individual and team settings. Dependable and reliable, ready to
-            learn and grow with your company.
+            As a passionate and dedicated student, I strive to create innovative
+            solutions through technology. With a curiosity for cutting-edge
+            advancements, I aim to leverage my skills in problem-solving and web
+            development. Welcome to my portfolio, where I showcase my skills and
+            experience in the world of technology.
           </p>
 
           <div>

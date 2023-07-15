@@ -1,38 +1,42 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import clothing from "../assets/portfolio/clothing.jpg";
+import portimg from "../assets/portfolio/portimg.jpg";
+import codecryp from "../assets/portfolio/codecryp.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: clothing,
+      href1: "https://mahalaxmi.onrender.com/",
+      href2:
+        "https://github.com/jainvaishali0408/Mahalaxmi-Synthetics-E-commerce-website-",
     },
     {
       id: 2,
-      src: reactParallax,
+      src: portimg,
+      href1: "https://astounding-dasik-a05e58.netlify.app/",
+      href2: "https://github.com/jainvaishali0408/my-portfolio",
     },
     {
       id: 3,
-      src: navbar,
-    },
-    {
-      id: 4,
-      src: reactSmooth,
-    },
-    {
-      id: 5,
-      src: installNode,
-    },
-    {
-      id: 6,
-      src: reactWeather,
+      src: codecryp,
+      href1: "",
+      href2: "https://github.com/jainvaishali0408/CodeCryptor",
     },
   ];
+
+  const handleDemoClick = (url) => {
+    if (url) {
+      window.open(url, "_blank");
+    }
+  };
+
+  const handleCodeClick = (url) => {
+    if (url) {
+      window.open(url, "_blank");
+    }
+  };
 
   return (
     <div
@@ -48,7 +52,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, href1, href2 }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -56,10 +60,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105 w-full h-auto"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => handleDemoClick(href1)}
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => handleCodeClick(href2)}
+                >
                   Code
                 </button>
               </div>

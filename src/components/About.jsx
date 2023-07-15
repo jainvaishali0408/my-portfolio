@@ -15,21 +15,24 @@ const About = () => {
 
         <div className="flex flex-col justify-center">
           <p className="text-xl mt-6">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-            deserunt illum mollitia officiis qui exercitationem perferendis
-            neque quasi a recusandae necessitatibus tempora iusto! Blanditiis
-            error iste, totam fugiat recusandae rerum laborum perferendis
-            molestiae aperiam asperiores nemo. Magni dolor maxime debitis vitae,
-            eaque hic ab mollitia voluptatibus, a nostrum eveniet laborum!
+            This is Vaishali Jain,currently pursuing Btech in Computer Science
+            and Enginnering from BIT Mesra,Ranchi,Jharkhand.
           </p>
 
           <p className="text-xl mt-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            pariatur, vel similique sint, nobis aspernatur ut praesentium
-            explicabo ipsam aliquid quasi laboriosam et culpa possimus
-            repudiandae quisquam ullam maiores ab unde. Fugiat odio mollitia
-            nemo alias. Commodi facilis atque nulla vero voluptatem explicabo.
-            Quibusdam, magni quo! Eum cupiditate debitis labore.
+            As a dedicated student specializing in Computer Science and
+            Engineering, I possess a strong foundation in computer fundamentals,
+            web development, and problem-solving with a focus on data structures
+            and algorithms (DSA). I have gained proficiency in key programming
+            languages such as Java, C, and C++, allowing me to efficiently
+            implement solutions to complex problems. Through hands-on experience
+            in web development, I have mastered JavaScript, MongoDB, ExpressJS,
+            NodeJS etc. enabling me to create dynamic and responsive websites.
+            Additionally, I have sharpened my problem-solving skills through
+            coursework and personal projects, utilizing DSA concepts to optimize
+            code performance. With this diverse skill set, I am equipped to
+            tackle challenges in the realm of technology and contribute to
+            innovative solutions.
           </p>
         </div>
       </div>
